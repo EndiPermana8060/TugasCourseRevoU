@@ -1,5 +1,5 @@
 p{
-    color: white;
+    color: black;
 }
 header{
     color: brown;
@@ -8,8 +8,23 @@ header{
     padding: 5px;
     box-sizing: border-box;
     width: 50%;
+    border-radius: 32px;
+    border: 3px dotted;
 }
-section{
+.materi{
     box-sizing: border-box;
     width: 50%;
+}
+.flex-materi{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.kiri{
+    flex: 1;
+    text-align: center;
+}
+.kanan{
+    flex: 1;
+    text-align: center;
 }
