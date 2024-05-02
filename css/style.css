@@ -1,0 +1,15 @@
+p{
+    color: white;
+}
+header{
+    color: brown;
+    margin: 8px;
+    border: 1px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 50%;
+}
+section{
+    box-sizing: border-box;
+    width: 50%;
+}
